@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'a4973244f0c34cb6b2dd4eab6ce4d494';
+const API_KEY = '168f914b56144bb4a0d10dca6e167bde';
 const BASE_URL = 'https://newsapi.org/v2/top-headlines';
 
 export const fetchNews = async (country = 'us', searchText) => {
