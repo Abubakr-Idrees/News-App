@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import NewsList from './components/NewsList';
+import Home from './components/Home';
 import Login from './auth/Login';
 import Signup from './auth/Signup';
 import { useSelector } from 'react-redux';

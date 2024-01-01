@@ -7,7 +7,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Signup from './auth/Signup';
 import ErrorPage from './components/error-page';
-import NewsList from './components/NewsList';
+import Home from './components/Home';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import EditProfile from './Profile/EditProfile';
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/home',
-    element: <NewsList />,
+    element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
