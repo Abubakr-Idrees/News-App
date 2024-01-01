@@ -1,0 +1,98 @@
+.post {
+  border: 1px solid #ddd;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.post-header-text {
+  flex: 1;
+}
+
+.post-body {
+  margin-top: 16px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  /* margin-top: 8px; */
+}
+
+.post-footer {
+  margin-top: 16px;
+  border-top: 1px solid #ddd;
+  /* padding-top: 8px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.post-comments {
+  /* margin-top: 8px; */
+}
+
+.post-comments p {
+  /* margin-bottom: 8px; */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .post {
+    margin: 8px;
+    padding: 12px;
+  }
+
+  .post-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .post-avatar {
+    margin-bottom: 8px;
+  }
+}
+
+/* GlassComponent.css */
+.glass-container {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  background-size: cover;
+  background-blur: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  margin: 20px;
+}
+
+.glass-content {
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.commentLikeBtn {
+  background: none;
+}
